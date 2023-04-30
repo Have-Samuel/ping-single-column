@@ -10,3 +10,17 @@
 body {
   background-color: #fff;
 }
+
+.image {
+  display: flex;
+
+  /* height: 192px; */
+  width: 320px;
+  margin: 2rem auto;
+}
+
+.fa-brands {
+  border: 1px solid #4c7bf326;
+  /* background-color: blue; */
+  color: #1964e6;
+}
