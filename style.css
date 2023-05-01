@@ -19,18 +19,13 @@ body {
   margin: 2rem auto;
 }
 
-.fa-brands {
-  border: 1px solid red;
-  border-radius: 50%;
-  /* color: #4c7bf3; */
-  height: 32px;
-  width: 32px;
-}
-
-#icons {
+.icons {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.icons .fabok {
   color: #4c7bf3;
   background-color: #fff;
   height: 15px;
@@ -38,32 +33,7 @@ body {
   border-radius: 50%;
 }
 
-.fabok {
-  color: #4c7bf3;
-  background-color: #fff;
-}
-
 .fabok:hover {
-  color: #fff;
-  background-color: #4c7bf3;
-}
-
-.tweat {
-  color: #4c7bf3;
-  background-color: #fff;
-}
-
-.tweat:hover {
-  color: #fff;
-  background-color: #4c7bf3;
-}
-
-.insta {
-  color: #4c7bf3;
-  background-color: #fff;
-}
-
-.insta:hover {
   color: #fff;
   background-color: #4c7bf3;
 }
