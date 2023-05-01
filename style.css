@@ -11,12 +11,50 @@ body {
   background-color: #fff;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+main h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+main h1 span {
+  color: #4c7bf3;
+}
+
+main .par-1 {
+  text-align: center;
+  margin: 1rem 0;
+  color: #969696;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.par-1 span {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #15202a;
+}
+
+.tiny {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #15202a;
+  margin-bottom: 2rem;
+}
 
 .image {
   display: flex;
-
-  /* height: 192px; */
   width: 320px;
   margin: 2rem auto;
 }
