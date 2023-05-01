@@ -26,3 +26,11 @@ body {
   height: 32px;
   width: 32px;
 }
+
+ion-icon {
+  color: #fff;
+  background-color: #4c7bf3;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
