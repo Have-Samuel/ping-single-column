@@ -120,24 +120,15 @@ button {
   background-color: #fff;
   cursor: pointer;
   border: 0.918357px solid rgba(76, 123, 243, 0.15);
-  padding: 0.5rem;
+  padding: 0.2rem;
   border-radius: 50%;
   font-size: 15px;
 }
 
-/* .md {
-  display: none;
-}
-
-.hydrated {
-  display: none;
-} */
-
 .fabok:hover {
   color: #fff;
   background-color: #4c7bf3;
-  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s; */
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 footer {
@@ -153,3 +144,5 @@ footer p {
   line-height: 20px;
   color: #969696;
 }
+
+@media (min-width: 786px) {}
