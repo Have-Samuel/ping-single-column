@@ -105,6 +105,7 @@ button {
 }
 
 .icons {
+  margin-top: 7.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
