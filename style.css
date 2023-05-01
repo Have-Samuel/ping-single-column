@@ -53,6 +53,31 @@ main .par-1 {
   margin-bottom: 2rem;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid #c2d3ff;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  width: 281px;
+  border-radius: 28px;
+  outline: none;
+}
+
+::placeholder {
+  color: #c2d3ff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
 .image {
   display: flex;
   width: 320px;
