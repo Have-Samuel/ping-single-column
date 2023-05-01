@@ -27,10 +27,43 @@ body {
   width: 32px;
 }
 
-ion-icon {
+#icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: #4c7bf3;
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.fabok {
+  color: #4c7bf3;
+  background-color: #fff;
+}
+
+.fabok:hover {
   color: #fff;
   background-color: #4c7bf3;
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
+}
+
+.tweat {
+  color: #4c7bf3;
+  background-color: #fff;
+}
+
+.tweat:hover {
+  color: #fff;
+  background-color: #4c7bf3;
+}
+
+.insta {
+  color: #4c7bf3;
+  background-color: #fff;
+}
+
+.insta:hover {
+  color: #fff;
+  background-color: #4c7bf3;
 }
