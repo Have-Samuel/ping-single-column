@@ -78,6 +78,26 @@ input {
   line-height: 20px;
 }
 
+input:focus {
+  border: 1px solid #4c7bf3;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid #4c7bf3;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  border-radius: 28px;
+  outline: none;
+  background-color: #4c7bf3;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 282px;
+}
+
 .image {
   display: flex;
   width: 320px;
