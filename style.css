@@ -108,18 +108,48 @@ button {
   margin-top: 7.5rem;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.color {
+  color: blue;
 }
 
 .icons .fabok {
   color: #4c7bf3;
   background-color: #fff;
-  height: 15px;
-  width: 15px;
+  cursor: pointer;
+  border: 0.918357px solid rgba(76, 123, 243, 0.15);
+  padding: 0.5rem;
   border-radius: 50%;
+  font-size: 15px;
 }
+
+/* .md {
+  display: none;
+}
+
+.hydrated {
+  display: none;
+} */
 
 .fabok:hover {
   color: #fff;
   background-color: #4c7bf3;
+  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s; */
+  transform: scale(1.5);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #969696;
 }
