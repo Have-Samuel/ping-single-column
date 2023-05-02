@@ -178,7 +178,7 @@ footer p {
   color: #969696;
 }
 
-/* @media (min-width: 786px) {
+@media (min-width: 786px) {
   main h1 {
     font-style: normal;
     font-weight: 700;
@@ -270,4 +270,4 @@ footer p {
     line-height: 15px;
     line-height: 20px;
   }
-} */
+}
