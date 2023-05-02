@@ -98,13 +98,16 @@ button {
   width: 282px;
 }
 
+button:hover {
+  opacity: 0.6;
+}
+
 .image {
   width: 320px;
   height: 320px;
   background: url('./images/illustration-dashboard.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 100% 0%;
   margin-top: 2rem;
 }
 
@@ -198,6 +201,14 @@ footer p {
     margin-bottom: 1rem;
   }
 
+  ::placeholder {
+    color: #c2d3ff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 1rem;
+  }
+
   button {
     height: 56px;
     width: 200px;
@@ -209,7 +220,28 @@ footer p {
     font-size: 16px;
   }
 
-  .image {
+  button:hover {
+    opacity: 0.6;
+  }
 
+  .image {
+    height: 358px;
+    width: 587px;
+    background: url('./images/illustration-dashboard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    margin-top: 3rem;
+  }
+
+  .icons {
+    margin-top: 2rem;
+  }
+
+  .footer p {
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 15px;
+    line-height: 20px;
   }
 }
