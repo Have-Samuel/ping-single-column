@@ -1,5 +1,5 @@
 const form = document.querySelector('#form-js');
-const email = document.getElementsByTagName('input[name="email"]');
+const email = document.querySelector('#email-input');
 
 function showError(ele, msg) {
   const formcontrol = ele.parent;
