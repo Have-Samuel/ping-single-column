@@ -2,11 +2,11 @@ const form = document.querySelector('#form-js');
 const email = document.querySelector('#email-input');
 
 function showError(ele, msg) {
-  const formcontrol = ele.parentElement;
-  const small = formcontrol.querySelector('small');
+  const formControl = ele.parentElement;
+  const small = formControl.querySelector('small');
   small.innerText = msg;
 
-  formcontrol.classList.add('error');
+  formControl.classList.add('error');
 }
 
 function validate() {
