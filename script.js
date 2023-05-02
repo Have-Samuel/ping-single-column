@@ -22,9 +22,19 @@ function validate() {
     showError(email, 'Email is not valid');
   }
 }
+// funtion that removes error
+function removeError() {
+  const formControl = email.parentElement;
+  formControl.classList.remove('error');
+}
+
+function resetInput() {
+  form.reset();
+}
 
 form.addEventListener('submit', (e) => {
-  console.log('submit');
   e.preventDefault();
+  removeError();
   validate();
+  resetInput();
 });
