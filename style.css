@@ -102,6 +102,23 @@ button:hover {
   opacity: 0.6;
 }
 
+.form.error input {
+  border-color: red;
+}
+
+.form small {
+  visibility: hidden;
+  color: red;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 17;
+}
+
+form.error small {
+  visibility: visible;
+}
+
 .image {
   width: 320px;
   height: 320px;
