@@ -2,14 +2,14 @@ const form = document.querySelector('#form-js');
 const email = document.querySelector('#email-input');
 
 function showError(ele, msg) {
-  const formcontrol = ele.parent;
+  const formcontrol = ele.parentElement;
   const small = formcontrol.querySelector('small');
   small.innerText = msg;
 
   formcontrol.classList.add('error');
 }
 
-function Validate() {
+function validate() {
   const emailValue = email.value.trim();
 
   function isEmail(email) {
@@ -24,6 +24,7 @@ function Validate() {
 }
 
 form.addEventListener('submit', (e) => {
+  console.log('submit');
   e.preventDefault();
-  Validate();
+  validate();
 });
