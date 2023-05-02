@@ -50,7 +50,7 @@ main .par-1 {
   font-weight: 300;
   line-height: 20px;
   color: #15202a;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .form {
@@ -58,6 +58,21 @@ main .par-1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form small {
+  visibility: hidden;
+  color: red;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 17;
+}
+
+form.error small {
+  visibility: visible;
 }
 
 input {
@@ -69,6 +84,10 @@ input {
   width: 281px;
   border-radius: 28px;
   outline: none;
+}
+
+.form.error input {
+  border-color: red;
 }
 
 ::placeholder {
@@ -100,23 +119,6 @@ button {
 
 button:hover {
   opacity: 0.6;
-}
-
-.form.error input {
-  border-color: red;
-}
-
-.form small {
-  visibility: hidden;
-  color: red;
-  font-size: 0.8rem;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 17;
-}
-
-form.error small {
-  visibility: visible;
 }
 
 .image {
@@ -169,7 +171,7 @@ footer p {
   color: #969696;
 }
 
-@media (min-width: 786px) {
+/* @media (min-width: 786px) {
   main h1 {
     font-style: normal;
     font-weight: 700;
@@ -261,4 +263,4 @@ footer p {
     line-height: 15px;
     line-height: 20px;
   }
-}
+} */
