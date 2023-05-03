@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Github]()
-- [Live Link]()
+- [Github](https://github.com/Have-Samuel/ping-single-column)
+- [Live Link](https://ping-single-column-nine.vercel.app/)
 
 ### Built with
 
